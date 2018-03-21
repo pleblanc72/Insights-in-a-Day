@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "AtRisk.SSIS", "AtRisk.SSIS\AtRisk.SSIS.dtproj", "{7A64FC81-FDE8-4CF2-85D2-79D64E34267A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A64FC81-FDE8-4CF2-85D2-79D64E34267A}.Development|Default.ActiveCfg = Development
+		{7A64FC81-FDE8-4CF2-85D2-79D64E34267A}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7B983AC-88FF-4794-B157-5126E7DF59FB}
+	EndGlobalSection
+EndGlobal
