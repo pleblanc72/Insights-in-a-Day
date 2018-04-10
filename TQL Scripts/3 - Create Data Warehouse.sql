@@ -367,10 +367,10 @@ IF(OBJECT_ID('dbo.FactDailyIncident')) IS NOT NULL
 GO
 CREATE VIEW dbo.FactDailyIncident
 AS
-SELECT * FROM FactDailyIncident_cy
+SELECT *, 1 CY FROM FactDailyIncident_cy
 UNION
-SELECT * FROM FactDailyIncident_pys
-WHERE IncidenteDateSK BETWEEN 20160701 AND 20170630
+SELECT *, 0 CY FROM FactDailyIncident_pys
+WHERE IncidentDateSK BETWEEN 20160701 AND 20170630
 GO
 
 IF(OBJECT_ID('dbo.FactDailyAttendance')) IS NOT NULL
@@ -378,9 +378,9 @@ IF(OBJECT_ID('dbo.FactDailyAttendance')) IS NOT NULL
 GO
 CREATE VIEW dbo.FactDailyAttendance
 AS
-SELECT * FROM FactDailyAttendance_cy
+SELECT *, 1 CY FROM FactDailyAttendance_cy
 UNION
-SELECT * FROM FactDailyAttendance_pys
+SELECT *, 0 CY FROM FactDailyAttendance_pys
 WHERE AttendanceDateSK BETWEEN 20160701 AND 20170630
 GO
 
@@ -389,8 +389,8 @@ IF(OBJECT_ID('dbo.FactClassAttendance')) IS NOT NULL
 GO
 CREATE VIEW dbo.FactClassAttendance
 AS
-SELECT * FROM FactClassAttendance_cy
+SELECT *, 1 CY FROM FactClassAttendance_cy
 UNION
-SELECT * FROM FactClassAttendance_pys
+SELECT *, 0 CY FROM FactClassAttendance_pys
 WHERE AttendanceDateSK BETWEEN 20160701 AND 20170630
 GO

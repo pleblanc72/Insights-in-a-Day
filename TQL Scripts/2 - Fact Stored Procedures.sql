@@ -21,14 +21,14 @@ ELSE
 	END
 
 SELECT
-	Term ,
+	Term,
 	CAST(AttendanceDate AS DATETIME) AttendanceDate,
 	CAST(CONVERT(varchar(8), AttendanceDate, 112) AS INT) AttendanceDateSK,
 	CAST(StudentID AS BIGINT) StudentID,
 	CAST(SchoolID AS INT) SchoolID,
 	CAST(CourseID AS BIGINT) CourseID,
 	CAST(AttendTypeID AS VARCHAR(5)) AttendTypeID
-FROM [dbo].[ClassAttendance]
+FROM [dbo].[vw_pbiClassAttendance]
 WHERE AttendanceDate BETWEEN @StartDate AND @EndDate
 GO
 
@@ -60,7 +60,7 @@ SELECT
 	CAST(SchoolID AS INT) SchoolID,
 	CAST(CourseID AS BIGINT) CourseID,
 	CAST(AttendTypeID AS VARCHAR(5)) AttendTypeID
-FROM [dbo].[ClassAttendance]
+FROM [dbo].[vw_pbiClassAttendance]
 WHERE AttendanceDate <= @LastDayOfSY 
 GO
 
@@ -93,7 +93,7 @@ SELECT
 	CAST(IncidentDate AS DATETIME) IncidentDate,
 	CAST(CONVERT(varchar(8), IncidentDate, 112) AS INT) IncidentDateSK,
 	CAST(ActionID AS VARCHAR(5)) ActionID
-FROM dbo.DailyIncident
+FROM dbo.vw_pbiDailyIncident
 WHERE IncidentDate <= @LastDayOfSY
 GO
 
@@ -128,7 +128,7 @@ SELECT
 	CAST(IncidentDate AS DATETIME) IncidentDate,
 	CAST(CONVERT(varchar(8), IncidentDate, 112) AS INT) IncidentDateSK,
 	CAST(ActionID AS VARCHAR(5)) ActionID
-FROM dbo.DailyIncident
+FROM dbo.vw_pbiDailyIncident
 WHERE IncidentDate BETWEEN @StartDate AND @EndDate
 GO
 
@@ -163,7 +163,7 @@ SELECT
 	NumofTardies,
 	NumofUnexcusedAbsent,
 	NumofExcusedAbsent
-FROM DailyAttendance
+FROM dbo.vw_pbiDailyAttendance
 WHERE AttendanceDate BETWEEN @StartDate AND @EndDate
 GO
 
@@ -195,7 +195,7 @@ SELECT
 	NumofTardies,
 	NumofUnexcusedAbsent,
 	NumofExcusedAbsent
-FROM DailyAttendance
+FROM vw_pbiDailyAttendance
 WHERE AttendanceDate <= @LastDayOfSY 
 GO
 

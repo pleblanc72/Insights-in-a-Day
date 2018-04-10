@@ -128,7 +128,7 @@ SELECT
 	CAST(StudentID AS BIGINT) StudentID,
 	CAST(SchoolID AS INT) SchoolID,
 	CAST(IncidentID AS VARCHAR(5)) IncidentID,
-	CAST(InvolvementID AS VARCHAR(5)) InvolvmentID,
+	CAST(InvolvementID AS VARCHAR(5)) InvolvementID,
 	CAST(IncidentDate AS DATETIME) IncidentDate,
 	CAST(CONVERT(varchar(8), IncidentDate, 112) AS INT) IncidentDateSK,
 	CAST(ActionID AS VARCHAR(5)) ActionID
