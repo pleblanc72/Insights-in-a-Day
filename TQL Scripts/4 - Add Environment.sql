@@ -31,6 +31,13 @@ DECLARE @var bit = N'False'
 EXEC [SSISDB].[catalog].[create_environment_variable] @variable_name=N'InitialLoad', @sensitive=False, @description=N'', @environment_name=N'Production', @folder_name=N'iiad_ETL', @value=@var, @data_type=N'Boolean'
 GO
 
+DECLARE @var sql_variant = N'asazure://southcentralus.asazure.windows.net/iiad'
+EXEC [SSISDB].[catalog].[create_environment_variable] @variable_name=N'TabularServer', @sensitive=False, @description=N'', @environment_name=N'Production', @folder_name=N'iiad_ETL', @value=@var, @data_type=N'String'
+GO
+
+DECLARE @var sql_variant = N'iiad_AtRisk'
+EXEC [SSISDB].[catalog].[create_environment_variable] @variable_name=N'TabularDatabase', @sensitive=False, @description=N'', @environment_name=N'Production', @folder_name=N'iiad_ETL', @value=@var, @data_type=N'String'
+GO
 
 
 ---Add Reference to Environment
@@ -59,7 +66,10 @@ EXEC [SSISDB].[catalog].[set_object_parameter_value] @object_type=20, @parameter
 GO
 EXEC [SSISDB].[catalog].[set_object_parameter_value] @object_type=20, @parameter_name=N'SourceUserName', @object_name=N'AtRisk.SSIS', @folder_name=N'iiad_ETL', @project_name=N'AtRisk.SSIS', @value_type=R, @parameter_value=N'SourceUserName'
 GO
-
+EXEC [SSISDB].[catalog].[set_object_parameter_value] @object_type=20, @parameter_name=N'TabularServer', @object_name=N'AtRisk.SSIS', @folder_name=N'iiad_ETL', @project_name=N'AtRisk.SSIS', @value_type=R, @parameter_value=N'TabularServer'
+GO
+EXEC [SSISDB].[catalog].[set_object_parameter_value] @object_type=20, @parameter_name=N'TabularDatabase', @object_name=N'AtRisk.SSIS', @folder_name=N'iiad_ETL', @project_name=N'AtRisk.SSIS', @value_type=R, @parameter_value=N'TabularDatabase'
+GO
 GO
 
 

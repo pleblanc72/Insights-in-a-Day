@@ -2,10 +2,10 @@
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
     <Name>AtRisk.SSIS</Name>
-    <LastWriteTime>2018-04-10T13:02:46.5868175Z</LastWriteTime>
+    <LastWriteTime>2018-04-10T18:51:18.0764377Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptAllWithPassword</LastKnownProtectionLevel>
-    <Salt>EKErpBIq</Salt>
-    <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAismmQB3aqUi3edj3SGskNQAAAAACAAAAAAADZgAAwAAAABAAAABVcbjulMDiNA/eCHzx5XLLAAAAAASAAACgAAAAEAAAAPxQ6BjjutwregdVR5LcnZQoAAAASsv1h/g4EiVIemeJmzYLY39qTNA6g72zbWxr4FhRHjOAcGl+vJhIChQAAACg+cgzze6bgDV6PzYe5Z+5aumcoA==</LastKnownProtectedHashedPassword>
+    <Salt>y2V+Lu0j</Salt>
+    <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAismmQB3aqUi3edj3SGskNQAAAAACAAAAAAADZgAAwAAAABAAAABbaxzUivDDsQvWY/eqpRywAAAAAASAAACgAAAAEAAAAEFVsDWbrLeXfLem16jRuKMoAAAA1KBXCd+Ysja+66K+thAs7jCZTFTpp2+Ak2knjE0x7qB1eXhq9aDkeBQAAADRcTWsBR+ZGPxRVH4LmxQ5oXRmIw==</LastKnownProtectedHashedPassword>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
@@ -13,112 +13,112 @@
       <LastWriteTime>2018-04-10T13:01:16.2025343Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptAllWithPassword</LastKnownProtectionLevel>
       <Salt>bvnO9HW+</Salt>
-      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAismmQB3aqUi3edj3SGskNQAAAAACAAAAAAADZgAAwAAAABAAAAAYgu1rNeMU1OVbTzi3VMtgAAAAAASAAACgAAAAEAAAABQR8VY4iHN8mHK0pFWQQl0oAAAAJnYte3Rr3GcZy8ycQje4Q+o+Ydz7HiISfcUBNgD9w5Ci7S9jnxf6LhQAAAD0VDs3WetP1P61VGibYXoqUWcZzA==</LastKnownProtectedHashedPassword>
+      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAismmQB3aqUi3edj3SGskNQAAAAACAAAAAAADZgAAwAAAABAAAAAQ5gnRu/8cC+kCLlPgrV0/AAAAAASAAACgAAAAEAAAAEbxjl3pZK9p7EdgOLmiliEoAAAA9pF6S8u9yi94CIgnb1j5o1fRaF3fBJHjZXw9fRq5U+9vMnkcmZcxERQAAAAuAe9mJ4UjP46HRg71ZiLGclwCSQ==</LastKnownProtectedHashedPassword>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>DimAttendanceType.dtsx</Name>
       <LastWriteTime>2018-04-10T13:01:16.2735398Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptAllWithPassword</LastKnownProtectionLevel>
       <Salt>WvXHwPKi</Salt>
-      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAismmQB3aqUi3edj3SGskNQAAAAACAAAAAAADZgAAwAAAABAAAAA3m5tMVbNaz5+Fco0h/YSpAAAAAASAAACgAAAAEAAAAO5fNt/fW2Xl8BXoYNcyYfsoAAAAdYMrEphtGJWfIgkdRD1jwCe79gp1+ZK2USKlohwml6QuSnYH4bZwhBQAAADlCLD/pEfHOgogNU3dRI5yoVzHbQ==</LastKnownProtectedHashedPassword>
+      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAismmQB3aqUi3edj3SGskNQAAAAACAAAAAAADZgAAwAAAABAAAADHXRDqjow5xiEKMUS+E/iOAAAAAASAAACgAAAAEAAAAPM2+XzRRkM3RKppE05s1XYoAAAARQVuU1pVyVT6Tl17fcEGRZtq2SnyHKnAfpY4DPjJn5VzZoWzNqrAhBQAAAAT7K70kSu1BzRHsLihO+i8EYOUEg==</LastKnownProtectedHashedPassword>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>DimCourse.dtsx</Name>
       <LastWriteTime>2018-04-10T13:01:16.3390344Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptAllWithPassword</LastKnownProtectionLevel>
       <Salt>upcQEK4h</Salt>
-      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAismmQB3aqUi3edj3SGskNQAAAAACAAAAAAADZgAAwAAAABAAAAC9sqp0yA/mdinPtUgygbTTAAAAAASAAACgAAAAEAAAAIZ60mISPc4lqc/A5OI9i2YoAAAA0l0tzpmpF14KrwcxrZOmUw3KXMLZs6Xn8K3qdY0oarli5QCvhe/vHxQAAACJzMKXWYxyfVs/+2C47NAhBPzReg==</LastKnownProtectedHashedPassword>
+      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAismmQB3aqUi3edj3SGskNQAAAAACAAAAAAADZgAAwAAAABAAAAAQ/Ofv9VtXXr1bXmO7qnsUAAAAAASAAACgAAAAEAAAAA65y/hvRfsEwVH+/NnrVdooAAAAgxNZCEebWF+0nU/wFD9XeVCmIGutOx+mOtLjwYhphsO04yPLYW/H7hQAAADvUAk6qsM+WcS4OfgAvQ1oZsDK/g==</LastKnownProtectedHashedPassword>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>DimIncident.dtsx</Name>
       <LastWriteTime>2018-04-10T13:01:16.385041Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptAllWithPassword</LastKnownProtectionLevel>
       <Salt>8wfJ/EEk</Salt>
-      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAismmQB3aqUi3edj3SGskNQAAAAACAAAAAAADZgAAwAAAABAAAABhAYET+47hKSiO1fMHCHuyAAAAAASAAACgAAAAEAAAAO8UYpcnk8DBwkOYUMIJOAgoAAAATMNKBCRF33JJkcqyJVBVIUoy6Ryn+J0Usvb9H8V9G1vygUNVlT1+WxQAAAAyDY3ZatwvwsIconNNCDif5VlHqQ==</LastKnownProtectedHashedPassword>
+      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAismmQB3aqUi3edj3SGskNQAAAAACAAAAAAADZgAAwAAAABAAAADohVAghh12qwzJWr66FHepAAAAAASAAACgAAAAEAAAADZbLgYQQ3kXXiKPfdmXB2ooAAAAx1VF37JeK//K0rh9d57Tt30I2OIQPYI6eJljvwqAJ2YiE8oo/6/KLBQAAABx3g79v92ZD7C2FiDgOdswIN8abA==</LastKnownProtectedHashedPassword>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>DimInvolvement.dtsx</Name>
       <LastWriteTime>2018-04-10T13:01:16.4253613Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptAllWithPassword</LastKnownProtectionLevel>
       <Salt>vbCcLD0p</Salt>
-      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAismmQB3aqUi3edj3SGskNQAAAAACAAAAAAADZgAAwAAAABAAAADLKt5oaFRrmUxmzaqrInPTAAAAAASAAACgAAAAEAAAAKjpEJJZx10XtMsGWzubMxwoAAAA/ajQrs3iaWWM1z9lW9qrhClK5Khx7DdN+xfkpkIREDK9o0Km9XVRxxQAAADUcAUwWSZ8cg8k7xs1/L146PCKJQ==</LastKnownProtectedHashedPassword>
+      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAismmQB3aqUi3edj3SGskNQAAAAACAAAAAAADZgAAwAAAABAAAADQPpuEyH83swTjYsLC68BSAAAAAASAAACgAAAAEAAAAE64Ay2Ap+kLHh901YaBuo4oAAAAUIdzfJn813zkDdyYt95X063qI4NhO1cidNePbmljapQe4DhnxFWx9BQAAADXOc6RUWDoRYGL48sN5tprL2kOng==</LastKnownProtectedHashedPassword>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>DimSchool.dtsx</Name>
       <LastWriteTime>2018-04-10T13:01:16.4722472Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptAllWithPassword</LastKnownProtectionLevel>
       <Salt>p5tQEqFG</Salt>
-      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAismmQB3aqUi3edj3SGskNQAAAAACAAAAAAADZgAAwAAAABAAAAAF4re8kqdt6tLNlSjObS32AAAAAASAAACgAAAAEAAAAO+wAY2K2sgjLJCQG81c90IoAAAAAvdE6abMB5VbVYVvj1TWlup2E6Ep0j+n+dusVnYd1NpEhYZVDmdGCRQAAADCV9DhWFdDn+eSYx/UCbJXgWgzYA==</LastKnownProtectedHashedPassword>
+      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAismmQB3aqUi3edj3SGskNQAAAAACAAAAAAADZgAAwAAAABAAAAA/FBMYoSGosSFvh+G7LZbaAAAAAASAAACgAAAAEAAAAPCcPMRFoxxWvPFCyxD4rHooAAAA426E7z7sq7ZB9VgkC1ZLNh3aSNz+ZtvH2asgMd6Q2NhaD+tLLbj61BQAAACgqg/thxY0FL0NBZvidia39MJVIw==</LastKnownProtectedHashedPassword>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>init_DimStudent.dtsx</Name>
       <LastWriteTime>2018-04-10T13:01:16.8729681Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptAllWithPassword</LastKnownProtectionLevel>
       <Salt>h3Gnz+YW</Salt>
-      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAismmQB3aqUi3edj3SGskNQAAAAACAAAAAAADZgAAwAAAABAAAABW2OZtyESpT1dDDddxKxdBAAAAAASAAACgAAAAEAAAAEyH9xS6P7cEr/kwKqQKOLMoAAAACJgOTQl0sGnBr4jQJWaTj9sSK2qHOKmcAjW8SOh9J9q/jelNzhNkShQAAACP6T/cM2o9aTjjmtl8SdRM1A1UQQ==</LastKnownProtectedHashedPassword>
+      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAismmQB3aqUi3edj3SGskNQAAAAACAAAAAAADZgAAwAAAABAAAADEQfZddT8/21lSzwvwIuKsAAAAAASAAACgAAAAEAAAAMMXVS6Novi8Offnp3i2vvYoAAAAcqRZ3y1RXv1lgn8HjQgKdaq6JAUYPXkbY5Qi6csPZljosPoF/ggkYhQAAAASTVq6vE5OgMytTZDFMEjLOUiwxA==</LastKnownProtectedHashedPassword>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>DimStudent.dtsx</Name>
       <LastWriteTime>2018-04-10T13:01:16.5409005Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptAllWithPassword</LastKnownProtectionLevel>
       <Salt>Ary+Wa06</Salt>
-      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAismmQB3aqUi3edj3SGskNQAAAAACAAAAAAADZgAAwAAAABAAAABEaJGC/IqyHL7H4Z9EMHJJAAAAAASAAACgAAAAEAAAABY4JQTEHN43Elt9H3AZHJAoAAAA8fbhAqcgqozuQO7e2vl6JQLa+P0sE0kUYLLebb5vEKELBy+VYAEV3BQAAAA2f5O7Z8fOWj5GRBLatC4UYfDI5g==</LastKnownProtectedHashedPassword>
+      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAismmQB3aqUi3edj3SGskNQAAAAACAAAAAAADZgAAwAAAABAAAAAV8FPcQ/S2Vo/ojQrh+u7wAAAAAASAAACgAAAAEAAAADDcJpbgbhTWzq8bH1b8KtEoAAAAGJFJ3KVmjliGoooLPDFNLL6CYECvVrYxuNONvgJesxtj/qnVa43FGxQAAACvLSmibRp1ntf3o9jaciOS2agzNQ==</LastKnownProtectedHashedPassword>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>FactClassAttendance.dtsx</Name>
       <LastWriteTime>2018-04-10T13:01:16.6254876Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptAllWithPassword</LastKnownProtectionLevel>
       <Salt>43imW5DR</Salt>
-      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAismmQB3aqUi3edj3SGskNQAAAAACAAAAAAADZgAAwAAAABAAAAC4tS9R0bQeS/CTpeBafba2AAAAAASAAACgAAAAEAAAAJHhmTWHuH/pSStU8mCA660oAAAAsxwFelVVIup79gDo3oFNIr8fH44PlfeFs6wQDfhSFLZwsJDVY3Ja9RQAAACFrv+5QMc0EdQk2Vwf6BBKMKV2rw==</LastKnownProtectedHashedPassword>
+      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAismmQB3aqUi3edj3SGskNQAAAAACAAAAAAADZgAAwAAAABAAAAD/8KHb5bHCdxiND/22G9PBAAAAAASAAACgAAAAEAAAAIMKYNA4LZ0XqBExiJ5dl9ooAAAAZUWYF0Ns0FLWJhPPETqigV6IAgzz+3dlWgKYCu7eFeQcRnY09WKlBBQAAABk8ooDkkdxjRtzu5hks4gKzn8LJw==</LastKnownProtectedHashedPassword>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>FactDailyAttendance.dtsx</Name>
       <LastWriteTime>2018-04-10T13:01:16.721322Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptAllWithPassword</LastKnownProtectionLevel>
       <Salt>PgYo6pxu</Salt>
-      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAismmQB3aqUi3edj3SGskNQAAAAACAAAAAAADZgAAwAAAABAAAAATnH2ad9tpDfCq5Wp9L50gAAAAAASAAACgAAAAEAAAAFL/+eYUyoKZCMshT+1K5C0oAAAAobnyhKutjvQBm1IHkfQ07tDnL1loXBcLDAVggP3efceif+939if4SxQAAADTa+Q+YG9Rw4WI4IffNOv1o0dIKA==</LastKnownProtectedHashedPassword>
+      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAismmQB3aqUi3edj3SGskNQAAAAACAAAAAAADZgAAwAAAABAAAACeWnHIvV7e5K3b4uEPLC7jAAAAAASAAACgAAAAEAAAAM7huHW3WbOOEzV2eCptutYoAAAAx/mUP19JgUvnoNGmKM/xXMFanH+vALWy6FjkeP6IXqeY890HIi+pRRQAAAD/JCI+vkzt8VLQmpuwl8UjIFrs7w==</LastKnownProtectedHashedPassword>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>FactDailyIncident.dtsx</Name>
       <LastWriteTime>2018-04-10T13:01:16.8039307Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptAllWithPassword</LastKnownProtectionLevel>
       <Salt>891u4FHA</Salt>
-      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAismmQB3aqUi3edj3SGskNQAAAAACAAAAAAADZgAAwAAAABAAAABO8K1gXQ7yDRwEgJKS/zkWAAAAAASAAACgAAAAEAAAACCtPrNgbOlqcmzAWKtQ2oIoAAAA4i6zeL5XweAA+FIdOxolJ3PzGV+tQ9Gmz3357qKw0GIq23cDXrCctxQAAAAdhmGhX4GAIOqMAiZ4QC/iKvJRdw==</LastKnownProtectedHashedPassword>
+      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAismmQB3aqUi3edj3SGskNQAAAAACAAAAAAADZgAAwAAAABAAAAAXViJlRUJqE1dd+GM0zg4TAAAAAASAAACgAAAAEAAAADglkB0TSSToa2CNf4XkEK4oAAAAq0Sn+KQYs3NceXPQOpskcIbrG6DdhiwBB2rrtho41DLITPJnKNCTWRQAAACg/aDzzCPFKaU1K2CegQZ0OG5QQA==</LastKnownProtectedHashedPassword>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>init_FactClassAttendance.dtsx</Name>
       <LastWriteTime>2018-04-10T13:01:16.9888709Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptAllWithPassword</LastKnownProtectionLevel>
       <Salt>rMLDZFaw</Salt>
-      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAismmQB3aqUi3edj3SGskNQAAAAACAAAAAAADZgAAwAAAABAAAACXZYRVNL2NNTcmJzbCdFVYAAAAAASAAACgAAAAEAAAAMnPqZEWSuFH45DjuizYo48oAAAABnQkCho318jMLth78tjk6OWUO/93LdBdvKX9in5z+i2Z92TzTmPvFhQAAABgFJE77e6BYAoo0ldV0i8jyV1nJg==</LastKnownProtectedHashedPassword>
+      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAismmQB3aqUi3edj3SGskNQAAAAACAAAAAAADZgAAwAAAABAAAAAMekjJK5RSwMxzfXzCKuJyAAAAAASAAACgAAAAEAAAAJMM2y1s9CuLBjciFX7/BI0oAAAAiCxdZwHhDO/G6aWP5XUfo7vjVxql3eHHZSQqA7WO9EpxJUAGttwwORQAAACv2m7XF7GvIKsmQKY9ACtx4ttiAA==</LastKnownProtectedHashedPassword>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>init_FactDailyAttendance.dtsx</Name>
       <LastWriteTime>2018-04-10T13:01:17.1047723Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptAllWithPassword</LastKnownProtectionLevel>
       <Salt>YzFQOY3+</Salt>
-      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAismmQB3aqUi3edj3SGskNQAAAAACAAAAAAADZgAAwAAAABAAAAANnCBitJR2PwolI5hGZV01AAAAAASAAACgAAAAEAAAADF0BnLhOxXQ3NkT2ZET/YAoAAAAtNIm8E9XkHDANNd9U+9mTQnhaPLTQb/r9GWXdrMacz4B1QOh0Sv7JRQAAABAicgwwXGSEZThQ6sNrRL1TmD5Mg==</LastKnownProtectedHashedPassword>
+      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAismmQB3aqUi3edj3SGskNQAAAAACAAAAAAADZgAAwAAAABAAAAAiqLisGRY7m0IxUw1nO5AeAAAAAASAAACgAAAAEAAAADwui6lZJwVy8emSCYJoGscoAAAAFwy8PTh/UsyXLcXEQ+R929MgdodrVr41EWJZ2OjMeGN5qjRjaZ72xhQAAAAOnQvuo7RWvnuOouOujzqdx8AhYw==</LastKnownProtectedHashedPassword>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>init_FactDailyIncident.dtsx</Name>
       <LastWriteTime>2018-04-10T13:01:17.2216874Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptAllWithPassword</LastKnownProtectionLevel>
       <Salt>42iDRNdC</Salt>
-      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAismmQB3aqUi3edj3SGskNQAAAAACAAAAAAADZgAAwAAAABAAAADL7PPEyv7OfbOKfelcRrD/AAAAAASAAACgAAAAEAAAAJm0eVvYEfsBhCDS4qScwwUoAAAAu4ikMldKvEWHtWiCjEUKIFVk3vz0KLeRUsFOROAivZPDwHGkE2bDHhQAAAD33ZKtiWScE6F42+IlQghdUezYgQ==</LastKnownProtectedHashedPassword>
+      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAismmQB3aqUi3edj3SGskNQAAAAACAAAAAAADZgAAwAAAABAAAADadxIbqXHlQi62gX6Yh6n+AAAAAASAAACgAAAAEAAAAHE0aARiYDxMbRDOCmdXqhMoAAAAmRk7KZ656uMrs1yifxS/z5BkIMRzKDdrFnn/qEp2NXUeEgqMUFJBcRQAAABvi8aLo8BoqEKkG36VepZrrjCY7A==</LastKnownProtectedHashedPassword>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>MasterDWLoad.dtsx</Name>
-      <LastWriteTime>2018-04-10T13:52:53.0670034Z</LastWriteTime>
+      <LastWriteTime>2018-04-10T18:51:18.0124318Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptAllWithPassword</LastKnownProtectionLevel>
-      <Salt>i+IvDWaR</Salt>
-      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAismmQB3aqUi3edj3SGskNQAAAAACAAAAAAADZgAAwAAAABAAAADv2BldtZy92fXYcdiyjZEzAAAAAASAAACgAAAAEAAAAGZD10RUPjrp5vouCevINQgoAAAAf/W7gVk1zx1cDllUKUDc0jx1lC1W47QZ5gyszh68D3qURH+twJDjHBQAAAD2GObfpz6hKulNmzukpXIbKaIAfg==</LastKnownProtectedHashedPassword>
+      <Salt>qaiqiQjg</Salt>
+      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAismmQB3aqUi3edj3SGskNQAAAAACAAAAAAADZgAAwAAAABAAAACT4TkL81rfXy+Ax/FlI36eAAAAAASAAACgAAAAEAAAAM9Hn1V0bMcp58T8Mi4VjzIoAAAAE0c6rYdE60W7ZjRhc8uRedTO//Vpr04F8OmNntAGr5F2KCVOaorCMhQAAACCOWOi02fSjDm7I1SrPbsZi4ABZw==</LastKnownProtectedHashedPassword>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>init_MasterDWLoad.dtsx</Name>
       <LastWriteTime>2018-04-10T13:01:17.2740828Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptAllWithPassword</LastKnownProtectionLevel>
       <Salt>U1JK5bBb</Salt>
-      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAismmQB3aqUi3edj3SGskNQAAAAACAAAAAAADZgAAwAAAABAAAAB4uwocaIIsoov3jpNGjFNnAAAAAASAAACgAAAAEAAAALLQnx/6INd0at4mH/RG1RQoAAAAICnREZL4emtdv6UUSNBr6hgitEAWZDnOHGWAbWTQdgxmY0gh6gEPGBQAAACloRUqi4swv7GtaMd8Hn6ThcopBA==</LastKnownProtectedHashedPassword>
+      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAismmQB3aqUi3edj3SGskNQAAAAACAAAAAAADZgAAwAAAABAAAACJwGPEjuZ2l5NIbxZGqZQDAAAAAASAAACgAAAAEAAAAGF0RJtvIsVNGyPhKAIPG1IoAAAAZBbKdjvMGIymU0VafPddQbW8tXkG7ugBFJtzn+8h8fRlnarOi3PLBBQAAABN3HaW7J22ctN5mNkJaKktPhleOQ==</LastKnownProtectedHashedPassword>
     </ProjectBuildItemInfo>
   </LastBuildInfos>
 </BuildLog>
