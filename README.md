@@ -1,3 +1,4 @@
+
 # Welcome: Insights-in-a-Day
 
 Welcome to Insights in a Day:  Identifying at Risk Students workshop.  In a single day, we will focus on hands-on activities that develop proficiency in Business Intelligence-oriented services in Azure such as Azure Data Factory, Data Warehouse and Analysis Services.  The labs within this workshop assume an introductory to intermediate knowledge of these services, and if this is not the case, then you should spend some time working through the pre-requisites.
