@@ -11,7 +11,7 @@ At the end of this workshop, you should be able to:
 - Build an Azure Data Warehouse 
 - Build, deploy and Azure Analysis Services (Azure AS) Tabular model
 - Create a deploy Power BI reports that live connected to an Azure AS instance 
->>>>>>> 8ebac0d6e42464538a697adca6c89048beaa073b
+
 
 # Pre-requisites
 This workshop is meant for a Business Intelligence Developer on Azure.  Since this is only a short workshop, there are certain this you need before you start.
