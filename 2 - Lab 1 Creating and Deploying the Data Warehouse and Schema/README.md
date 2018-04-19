@@ -5,10 +5,14 @@
 
 # Lab 1:  Creating and Deploying the Data Warehouse and Schema
 
-In this section you will do the following:
-- Create an instance of Azure SQL Server
-- Create and Azure Database or Azure Data Warehouse
-- Run the Data Warehouse schema TSQL Script on the Database or Data Warehouse
+In this section you will do the one of the following:
+- Create an Azure SQL Database 
+- Run the Data Warehouse schema TSQL Script on the Database
+
+OR
+
+- Create an Azure SQL Data Warehouse
+- Run the Data Warehouse schema TSQL Script on the  Data Warehouse
 
 
 
