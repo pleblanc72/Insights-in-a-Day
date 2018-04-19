@@ -35,8 +35,8 @@ Finally, before arriving at the workshop ensure that you have installed the late
 Please note:  This is a rough agenda, and the schedule is subject to change pending workshop activities and interaction:
 
 - 8-9 (optional):   Setup assistance and networking
-- 9-9:30:           Validating your environment and checking your views.  See [Data Dictionary](https://github.com/pleblanc72/Insights-in-a-Day/tree/master/1%20-%20Data%20Dictionary) for more details.
-- 9:30-10:         Introduction to the Solution
+- 9-9:30:           Introduction to the Solution
+- 9:30-10:         Validating your environment, checking your views and creating Loading Stored Procedures on SIS.  See [Data Dictionary](https://github.com/pleblanc72/Insights-in-a-Day/tree/master/1%20-%20Data%20Dictionary) for more details.
 - 10-10:15:        Break
 - 10:15-11:15:     [Lab 1 - Creating and Deploying the Data Warehouse and Schema](https://github.com/pleblanc72/Insights-in-a-Day/tree/master/2%20-%20Lab%201%20Creating%20and%20Deploying%20the%20Data%20Warehouse%20and%20Schema) 
 - 11:15-12:        Lab 2 – Creating and Configuring Azure Data Factory or Validating SSIS Environment
