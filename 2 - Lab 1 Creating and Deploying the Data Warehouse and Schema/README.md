@@ -6,7 +6,14 @@
 # Lab 1:  Creating and Deploying the Data Warehouse and Schema
 
 In this section you will do the one of the following:
-- Create an Azure SQL Database 
+- Create an Azure SQL Database using this [document](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-get-started-portal).  **Replace the following items with the following**:
+	1.  Database name: AtRiskDW
+	2.  Subscription: Name of your subscription
+	3.  Resource Group: Select **Use existing** radio button and select the **iiad** resource group or the the resource group you have selected to use for this workshop.
+	4.  Select source:  Blank database
+	5.  Server:  Select an existing Logical SQL Server or following the steps outlined in the document to create a new one.  (Create it in the same resource group specified in step 3)
+	6.  Pricing tier:  Standard S2
+
 - Run the Data Warehouse schema TSQL Script on the Database
 
 OR
