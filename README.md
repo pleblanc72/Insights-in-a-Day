@@ -1,4 +1,4 @@
-
+﻿
 # Welcome: Insights-in-a-Day
 
 Welcome to Insights in a Day:  Identifying at Risk Students workshop.  In a single day, we will focus on hands-on activities that develop proficiency in Business Intelligence-oriented services in Azure such as Azure Data Factory, Data Warehouse and Analysis Services.  The labs within this workshop assume an introductory to intermediate knowledge of these services, and if this is not the case, then you should spend some time working through the pre-requisites.
@@ -18,7 +18,11 @@ This workshop is meant for a Business Intelligence Developer on Azure.  Since th
 
 Firstly, you need to ensure that you have created views against your Student Information System (SIS) in accordance with the data dictionary provided [here](https://github.com/pleblanc72/Insights-in-a-Day/tree/master/1%20-%20Data%20Dictionary).  Please create the views on a server that you can access when you are outside of your organizations network. 
 
-Secondly, you should have access to your organizations Azure Subscription.  In addition, you must have the ability to create all the necessary objects in the subscription.  Please work with you Microsoft Account representative to properly set up your subscription.  If you are planning to run your SSIS packages using ADF please ensure that you have a Virtual Network and VPN/Express Route configured in your subscription prior to attending the workshop.  
+Secondly, you should have access to your organizations Azure Subscription.  In addition, you must have the ability to create all the necessary objects in the subscription.  Please work with you Microsoft Account representative to properly set up your subscription.  If you are planning to run your SSIS packages using ADF please ensure that you have a Virtual Network and VPN/Express Route configured in your subscription prior to attending the workshop. 
+
+**************************************************************************************************************************************************************************************** 
+IMPORTANT:  Once you have your Azure subscription set up,  ensure that you or someone creates a Resource Group that you have Owner access. Please using this [document](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-portal).  In the lab the name of the Resource Group is IIAD.  Finally, create the Resource Group in the region closest to your organization.
+**************************************************************************************************************************************************************************************** 
 
 Thirdly, you should have some experience with SQL Server Data Tools and SQL Server Management Studio.
 
