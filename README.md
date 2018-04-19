@@ -5,6 +5,7 @@ Welcome to Insights in a Day:  Identifying at Risk Students workshop.  In a sing
 # Goals
 Most Challenges observed by customers in these realms are in stitching services together.  As such where possible, we have tried to place key concepts in the context of a broader example.
 At the end of this workshop, you should be able to:
+
 •	Understand how to deploy and schedule SSIS packages using SQL Server Integration Services (SSIS) or Azure Data Factory (ADF)
 •	Build an Azure Data Warehouse 
 •	Build, deploy and Azure Analysis Services (Azure AS) Tabular model
