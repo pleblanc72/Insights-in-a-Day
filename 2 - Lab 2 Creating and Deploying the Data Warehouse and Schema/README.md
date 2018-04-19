@@ -25,6 +25,6 @@ OR
 
 
 
-[Back to Data Dictionary](https://github.com/pleblanc72/Insights-in-a-Day/tree/master/1%20-%20Data%20Dictionary)
+[Back to Data Dictionary](https://github.com/pleblanc72/Insights-in-a-Day/tree/master/1%20-%20Lab%201%20Validating%20Data%20Dictionary)
 
 [Back to Main Page](https://github.com/pleblanc72/Insights-in-a-Day)
