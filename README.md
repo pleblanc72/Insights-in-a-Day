@@ -5,10 +5,11 @@ Welcome to Insights in a Day:  Identifying at Risk Students workshop.  In a sing
 # Goals
 Most Challenges observed by customers in these realms are in stitching services together.  As such where possible, we have tried to place key concepts in the context of a broader example.
 At the end of this workshop, you should be able to:
-•	Understand how to deploy and schedule SSIS packages using SQL Server Integration Services (SSIS) or Azure Data Factory (ADF)
-•	Build an Azure Data Warehouse 
-•	Build, deploy and Azure Analysis Services (Azure AS) Tabular model
-•	Create a deploy Power BI reports that live connected to an Azure AS instance 
+
+â€¢	Understand how to deploy and schedule SSIS packages using SQL Server Integration Services (SSIS) or Azure Data Factory (ADF)
+â€¢	Build an Azure Data Warehouse 
+â€¢	Build, deploy and Azure Analysis Services (Azure AS) Tabular model
+â€¢	Create a deploy Power BI reports that live connected to an Azure AS instance 
 
 # Pre-requisites
 This workshop is meant for a Business Intelligence Developer on Azure.  Since this is only a short workshop, there are certain this you need before you start.
@@ -19,24 +20,24 @@ Secondly, you should have access to your organizations Azure Subscription.  In a
 Thirdly, you should have some experience with SQL Server Data Tools and SQL Server Management Studio.
 
 Finally, before arriving at the workshop ensure that you have installed the latest edition of the following items on your machine:
-•	Power BI Desktop
-•	SQL Server Management Studio
-•	SQL Server Data Tools 
+â€¢	Power BI Desktop
+â€¢	SQL Server Management Studio
+â€¢	SQL Server Data Tools 
 
 # Agenda
 Please note:  This is a rough agenda, and the schedule is subject to change pending workshop activities and interaction.
-•	8-9 (optional):  Setup assistance and networking
-•	9-9:30:  Validating your environment
-•	9:30-10:  Introduction to the Solution
-•	10-10:15: Break
-•	10:15-11:15:  Lab 1 - Creating and Deploying the Data Warehouse Schema 
-•	11:15-12:  Lab 2 – Creating and Configuring Azure Data Factory or Validating SSIS Environment
-•	12-1:  Lunch
-•	1-2:  Lab 3 – Configuring the SSIS ETL Project
-•	2-3:  Lab 4 – Creating, configuring and Deploying Azure Analysis Services Tabular Model
-•	3-3:15 – Break
-•	3:15-3:45 – Lab 5 - Deploying and Scheduling your SSIS packages to run in ADF or on the SQL Server Agent
-•	3:45-4:45– lab 6 - Connecting the Power BI Report to your Azure AS instance  
-•	4:45-until – Q&A and Feedback for workshop
+â€¢	8-9 (optional):  Setup assistance and networking
+â€¢	9-9:30:  Validating your environment
+â€¢	9:30-10:  Introduction to the Solution
+â€¢	10-10:15: Break
+â€¢	10:15-11:15:  Lab 1 - Creating and Deploying the Data Warehouse Schema 
+â€¢	11:15-12:  Lab 2 â€“ Creating and Configuring Azure Data Factory or Validating SSIS Environment
+â€¢	12-1:  Lunch
+â€¢	1-2:  Lab 3 â€“ Configuring the SSIS ETL Project
+â€¢	2-3:  Lab 4 â€“ Creating, configuring and Deploying Azure Analysis Services Tabular Model
+â€¢	3-3:15 â€“ Break
+â€¢	3:15-3:45 â€“ Lab 5 - Deploying and Scheduling your SSIS packages to run in ADF or on the SQL Server Agent
+â€¢	3:45-4:45â€“ lab 6 - Connecting the Power BI Report to your Azure AS instance  
+â€¢	4:45-until â€“ Q&A and Feedback for workshop
 
 
