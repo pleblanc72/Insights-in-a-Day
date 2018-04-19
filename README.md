@@ -36,10 +36,10 @@ Please note:  This is a rough agenda, and the schedule is subject to change pend
 
 - 8-9 (optional):   Setup assistance and networking
 - 9-9:30:           Introduction to the Solution
-- 9:30-10:         [Lab 1 - Validating your environment, checking your views and creating Loading Stored Procedures on your SIS](https://github.com/pleblanc72/Insights-in-a-Day/tree/master/1%20-%20Lab%201%20Validating%20Data%20Dictionary).  
+- 9:30-10:         [Lab 1](https://github.com/pleblanc72/Insights-in-a-Day/tree/master/1%20-%20Lab%201%20Validating%20Data%20Dictionary) - Validating your environment, checking your views and creating Loading Stored Procedures on your SIS.  
 See [Data Dictionary](https://github.com/pleblanc72/Insights-in-a-Day/tree/master/1%20-%20Data%20Dictionary) for more details.
 - 10-10:15:        Break
-- 10:15-11:15:     [Lab 2 - Creating and Deploying the Data Warehouse and Schema](https://github.com/pleblanc72/Insights-in-a-Day/tree/master/2%20-%20Lab%201%20Creating%20and%20Deploying%20the%20Data%20Warehouse%20and%20Schema) 
+- 10:15-11:15:     [Lab 2](https://github.com/pleblanc72/Insights-in-a-Day/tree/master/2%20-%20Lab%201%20Creating%20and%20Deploying%20the%20Data%20Warehouse%20and%20Schema)  - Creating and Deploying the Data Warehouse and Schema
 - 11:15-12:        Lab 3 – Creating and Configuring Azure Data Factory or Validating SSIS Environment
 - 12-1:            Lunch
 - 1-2:             Lab 4 – Configuring the SSIS ETL Project
