@@ -34,7 +34,7 @@ Please note:  This is a rough agenda, and the schedule is subject to change pend
 - 9-9:30:           Validating your environment and checking your views.  See data Dictionary for more details.
 - 9:30-10:         Introduction to the Solution
 - 10-10:15:        Break
-- 10:15-11:15:     Lab 1 - Creating and Deploying the Data Warehouse Schema 
+- 10:15-11:15:     Lab 1 - Creating and Deploying the Data Warehouse and Schema 
 - 11:15-12:        Lab 2 – Creating and Configuring Azure Data Factory or Validating SSIS Environment
 - 12-1:            Lunch
 - 1-2:             Lab 3 – Configuring the SSIS ETL Project
