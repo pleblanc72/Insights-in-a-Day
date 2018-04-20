@@ -12,6 +12,23 @@
 **Only do this if you plan to use Azure Data Factory**.  
 In this section you will create an Azure Date Factory.  Please use the following steps to configure Azure Data Factory:
 
+1.  Open **Windows Powershell ISE** as an administrator.
+2.  Open the [Deploy ADF and Configure Runtime.ps1]() PowerShell script.
+3.  Update the following variables (highlighted in red) with values that correspond to your environment:
+	- $SubscriptionName
+	- $ResourceGroupName
+	- $DataFactoryName
+	- $DataFactoryLocation
+	- $AzureSSISName
+	- $AzureSSISDescription
+	- $AzureSSISLocation
+	- $AzureSSISNodeSize
+	- $AzureSSISMaxParallelExecutionsPerNode
+	- $SSISDBServerEndpoint
+	- $SSISDBServerAdminUserName
+	- $SSISDBServerAdminPassword
+	- $SSISDBPricingTier
+4.  Save and run the script.  It should complete in approximately 20 minutes.
 
 
 
