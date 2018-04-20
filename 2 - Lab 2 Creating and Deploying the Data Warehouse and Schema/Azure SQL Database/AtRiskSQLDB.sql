@@ -1,17 +1,32 @@
+IF(OBJECT_ID('dbo.FactDailyIncident_cy')) IS NOT NULL
+	DROP TABLE dbo.FactDailyIncident_cy
+GO
+IF(OBJECT_ID('dbo.FactDailyIncident_pys')) IS NOT NULL
+	DROP TABLE dbo.FactDailyIncident_pys
+GO
+IF(OBJECT_ID('dbo.FactDailyAttendance_cy')) IS NOT NULL
+	DROP TABLE dbo.FactDailyAttendance_cy
+GO
+IF(OBJECT_ID('dbo.FactDailyAttendance_pys')) IS NOT NULL
+	DROP TABLE dbo.FactDailyAttendance_pys
+GO
+IF(OBJECT_ID('dbo.FactClassAttendance_cy')) IS NOT NULL
+	DROP TABLE dbo.FactClassAttendance_cy
+GO
+IF(OBJECT_ID('dbo.FactClassAttendance_pys')) IS NOT NULL
+	DROP TABLE dbo.FactClassAttendance_pys
+GO
+
 IF(OBJECT_ID('dbo.DimAction')) IS NOT NULL
 	DROP TABLE dbo.DimAction
 GO
 CREATE TABLE dbo.DimAction
 (
-	ActionSK int identity(1,1),
+	ActionSK int identity(1,1)
+		CONSTRAINT PK_DimAction_ActionSK PRIMARY KEY,
 	ActionAK varchar(5),
 	[Action] varchar(40)
 )
-WITH
-(
-	DISTRIBUTION = REPLICATE,
-	CLUSTERED INDEX (ActionSK)
-);
 GO
 
 IF(OBJECT_ID('dbo.DimAttendanceType')) IS NOT NULL
@@ -19,15 +34,11 @@ IF(OBJECT_ID('dbo.DimAttendanceType')) IS NOT NULL
 GO
 CREATE TABLE dbo.DimAttendanceType
 (
-	AttendanceTypeSK int identity(1,1),
+	AttendanceTypeSK int identity(1,1)
+		CONSTRAINT PK_DimAttendance_AttendanceTypeSK PRIMARY KEY,
 	AttendanceTypeAK varchar(5),
 	AttendanceType varchar(40)
 )
-WITH
-(
-	DISTRIBUTION = REPLICATE,
-	CLUSTERED INDEX (AttendanceTypeSK)
-);
 GO
 
 IF(OBJECT_ID('dbo.DimCourse')) IS NOT NULL
@@ -35,16 +46,12 @@ IF(OBJECT_ID('dbo.DimCourse')) IS NOT NULL
 GO
 CREATE TABLE dbo.DimCourse
 (
-	CourseSK int identity(1,1),
+	CourseSK int identity(1,1)
+		CONSTRAINT PK_DimCourse_CourseSK PRIMARY KEY,
 	CourseAK bigint,
 	CourseCode varchar(15),
 	CourseName varchar(40)
 )
-WITH
-(
-	DISTRIBUTION = REPLICATE,
-	CLUSTERED INDEX (CourseSK)
-);
 GO
 
 IF(OBJECT_ID('dbo.DimIncident')) IS NOT NULL
@@ -52,15 +59,11 @@ IF(OBJECT_ID('dbo.DimIncident')) IS NOT NULL
 GO
 CREATE TABLE dbo.DimIncident
 (
-	IncidentSK int identity(1,1),
+	IncidentSK int identity(1,1)
+		CONSTRAINT PK_DimIncident_IncidentSK PRIMARY KEY,
 	IncidentAK varchar(5),
 	Incident varchar(40)
 )
-WITH
-(
-	DISTRIBUTION = REPLICATE,
-	CLUSTERED INDEX (IncidentSK)
-);
 GO
 
 IF(OBJECT_ID('dbo.DimInvolvement')) IS NOT NULL
@@ -68,15 +71,11 @@ IF(OBJECT_ID('dbo.DimInvolvement')) IS NOT NULL
 GO
 CREATE TABLE dbo.DimInvolvement
 (
-	InvolvementSK int identity(1,1),
+	InvolvementSK int identity(1,1)
+		CONSTRAINT PK_DimInvolvement_InvolvmentSK PRIMARY KEY,
 	InvolvementAK varchar(5),
 	Involvement varchar(20)
 )
-WITH
-(
-	DISTRIBUTION = REPLICATE,
-	CLUSTERED INDEX (InvolvementSK)
-);
 GO
 
 IF(OBJECT_ID('dbo.DimSchool')) IS NOT NULL
@@ -84,15 +83,11 @@ IF(OBJECT_ID('dbo.DimSchool')) IS NOT NULL
 GO
 CREATE TABLE dbo.DimSchool
 (
-	SchoolSK int identity(1,1),
+	SchoolSK int identity(1,1)
+		CONSTRAINT PK_DimSchool_SchoolSK PRIMARY KEY,
 	SchoolAK int,
 	SchoolName varchar(40)
 )
-WITH
-(
-	DISTRIBUTION = REPLICATE,
-	CLUSTERED INDEX (SchoolSK)
-);
 GO
 
 IF(OBJECT_ID('dbo.DimStudent')) IS NOT NULL
@@ -100,7 +95,8 @@ IF(OBJECT_ID('dbo.DimStudent')) IS NOT NULL
 GO
 CREATE TABLE dbo.DimStudent
 (
-	StudentSK bigint identity(1,1),
+	StudentSK bigint identity(1,1)
+		CONSTRAINT PK_DimStudent_StudentSK PRIMARY KEY,
 	StudentAK bigint, 
 	StudentName varchar(20), 
 	Gender varchar(6), 
@@ -112,122 +108,152 @@ CREATE TABLE dbo.DimStudent
 	StartSchoolYear datetime, 
 	EndSchoolYear datetime
 )
-WITH
-(
-	DISTRIBUTION = REPLICATE,
-	CLUSTERED INDEX (StudentSK)
-);
 GO
 
-IF(OBJECT_ID('dbo.FactClassAttendance_pys')) IS NOT NULL
-	DROP TABLE dbo.FactClassAttendance_pys
-GO
+
 CREATE TABLE dbo.FactClassAttendance_pys
 (
+	ClassAttendancepysID int identity(1,1)		
+		CONSTRAINT PK_FactClassAttendancepys_ClassAttendancepysID PRIMARY KEY,
 	Term int,
 	AttendanceDateSK int,
 	StudentSK bigint,
+		CONSTRAINT FK_CApys_To_DimStudent_On_StudentSK
+			FOREIGN KEY (StudentSK) 
+				REFERENCES dbo.DimStudent(StudentSK),
 	SchoolSK int,
+		CONSTRAINT FK_CApys_To_DimSchool_On_SchoolSK
+			FOREIGN KEY (SchoolSK) 
+				REFERENCES dbo.DimSchool(SchoolSK),
 	CourseSK int,
+		CONSTRAINT FK_CApys_To_DimSchool_On_CourseSK
+			FOREIGN KEY (CourseSK) 
+				REFERENCES dbo.DimCourse(CourseSK),
 	AttendTypeSK int
-)
-WITH
-(
-	CLUSTERED COLUMNSTORE INDEX
+		CONSTRAINT FK_CApys_To_DimSchool_On_AttendTypeSK
+			FOREIGN KEY (AttendTypeSK) 
+				REFERENCES dbo.DimAttendanceType(AttendanceTypeSK)
 )
 GO
 
-IF(OBJECT_ID('dbo.FactClassAttendance_cy')) IS NOT NULL
-	DROP TABLE dbo.FactClassAttendance_cy
-GO
 CREATE TABLE dbo.FactClassAttendance_cy
 (
+	ClassAttendancecyID int identity(1,1)		
+		CONSTRAINT PK_FactClassAttendancecy_ClassAttendancecyID PRIMARY KEY,
 	Term int,
 	AttendanceDateSK int,
 	StudentSK bigint,
+		CONSTRAINT FK_CAcy_To_DimStudent_On_StudentSK
+			FOREIGN KEY (StudentSK) 
+				REFERENCES dbo.DimStudent(StudentSK),
 	SchoolSK int,
+		CONSTRAINT FK_CAcy_To_DimSchool_On_SchoolSK
+			FOREIGN KEY (SchoolSK) 
+				REFERENCES dbo.DimSchool(SchoolSK),
 	CourseSK int,
+		CONSTRAINT FK_CAcy_To_DimSchool_On_CourseSK
+			FOREIGN KEY (CourseSK) 
+				REFERENCES dbo.DimCourse(CourseSK),
 	AttendTypeSK int
-)
-WITH
-(
-	CLUSTERED COLUMNSTORE INDEX
+		CONSTRAINT FK_CAcy_To_DimSchool_On_AttendTypeSK
+			FOREIGN KEY (AttendTypeSK) 
+				REFERENCES dbo.DimAttendanceType(AttendanceTypeSK)
 )
 GO
 
-IF(OBJECT_ID('dbo.FactDailyAttendance_pys')) IS NOT NULL
-	DROP TABLE dbo.FactDailyAttendance_pys
-GO
 CREATE TABLE dbo.FactDailyAttendance_pys
 (
+	DailyAttendancepysID int identity(1,1)		
+		CONSTRAINT PK_FactDailyAttendancepys_DailyAttendancepysID PRIMARY KEY,
 	AttendanceDateSK int,
 	StudentSK bigint,
+		CONSTRAINT FK_DApys_To_DimStudent_On_StudentSK
+			FOREIGN KEY (StudentSK) 
+				REFERENCES dbo.DimStudent(StudentSK),
 	SchoolSK int,
+		CONSTRAINT FK_DApys_To_DimSchool_On_SchoolSK
+			FOREIGN KEY (SchoolSK) 
+				REFERENCES dbo.DimSchool(SchoolSK),
 	NumOfPossiblePeriods int,
 	NumOfTardies int,
 	NumofUnexcusedAbsent int,
 	NumofExcusedAbsent int
 )
-WITH
-(
-	CLUSTERED COLUMNSTORE INDEX
-)
 GO
 
-GO
-
-IF(OBJECT_ID('dbo.FactDailyAttendance_cy')) IS NOT NULL
-	DROP TABLE dbo.FactDailyAttendance_cy
-GO
 CREATE TABLE dbo.FactDailyAttendance_cy
 (
+	DailyAttendancecyID int identity(1,1)		
+		CONSTRAINT PK_FactDailyAttendancecy_DailyAttendancecyID PRIMARY KEY,
 	AttendanceDateSK int,
 	StudentSK bigint,
+		CONSTRAINT FK_DAcy_To_DimStudent_On_StudentSK
+			FOREIGN KEY (StudentSK) 
+				REFERENCES dbo.DimStudent(StudentSK),
 	SchoolSK int,
+		CONSTRAINT FK_DAcy_To_DimSchool_On_SchoolSK
+			FOREIGN KEY (SchoolSK) 
+				REFERENCES dbo.DimSchool(SchoolSK),
 	NumOfPossiblePeriods int,
 	NumOfTardies int,
 	NumofUnexcusedAbsent int,
 	NumofExcusedAbsent int
 )
-WITH
-(
-	CLUSTERED COLUMNSTORE INDEX
-)
 GO
 
-IF(OBJECT_ID('dbo.FactDailyIncident_pys')) IS NOT NULL
-	DROP TABLE dbo.FactDailyIncident_pys
-GO
 CREATE TABLE dbo.FactDailyIncident_pys
 (
+	DailyIncidentpysID int identity(1,1)		
+		CONSTRAINT PK_FactDailyIncidentpys_DailyIncidentepysID PRIMARY KEY,
 	IncidentDateSK int,
 	StudentSK bigint,
+		CONSTRAINT FK_DIpys_To_DimStudent_On_StudentSK
+			FOREIGN KEY (StudentSK) 
+				REFERENCES dbo.DimStudent(StudentSK),
 	SchoolSK int,
+		CONSTRAINT FK_DIpys_To_DimSchool_On_SchoolSK
+			FOREIGN KEY (SchoolSK) 
+				REFERENCES dbo.DimSchool(SchoolSK),
 	IncidentSK int,
+		CONSTRAINT FK_DIpys_To_DimSchool_On_IncidentSK
+			FOREIGN KEY (IncidentSK) 
+				REFERENCES dbo.DimIncident(IncidentSK),
 	InvolvementSK int,
+		CONSTRAINT FK_DIpys_To_DimSchool_On_InvolvementSK
+			FOREIGN KEY (InvolvementSK) 
+				REFERENCES dbo.DimInvolvement(InvolvementSK),
 	ActionSK int
-)
-WITH
-(
-	CLUSTERED COLUMNSTORE INDEX
+		CONSTRAINT FK_DIpys_To_DimSchool_On_ActionSK
+			FOREIGN KEY (ActionSK) 
+				REFERENCES dbo.DimAction(ActionSK)
 )
 GO
 
-IF(OBJECT_ID('dbo.FactDailyIncident_cy')) IS NOT NULL
-	DROP TABLE dbo.FactDailyIncident_cy
-GO
 CREATE TABLE dbo.FactDailyIncident_cy
 (
+	DailyIncidentcyID int identity(1,1)		
+		CONSTRAINT PK_FactDailyIncidentcy_DailyIncidentecyID PRIMARY KEY,
 	IncidentDateSK int,
 	StudentSK bigint,
+		CONSTRAINT FK_DIcy_To_DimStudent_On_StudentSK
+			FOREIGN KEY (StudentSK) 
+				REFERENCES dbo.DimStudent(StudentSK),
 	SchoolSK int,
+		CONSTRAINT FK_DIcy_To_DimSchool_On_SchoolSK
+			FOREIGN KEY (SchoolSK) 
+				REFERENCES dbo.DimSchool(SchoolSK),
 	IncidentSK int,
+		CONSTRAINT FK_DIcy_To_DimSchool_On_IncidentSK
+			FOREIGN KEY (IncidentSK) 
+				REFERENCES dbo.DimIncident(IncidentSK),
 	InvolvementSK int,
+		CONSTRAINT FK_DIcy_To_DimSchool_On_InvolvementSK
+			FOREIGN KEY (InvolvementSK) 
+				REFERENCES dbo.DimInvolvement(InvolvementSK),
 	ActionSK int
-)
-WITH
-(
-	CLUSTERED COLUMNSTORE INDEX
+		CONSTRAINT FK_DIcy_To_DimSchool_On_ActionSK
+			FOREIGN KEY (ActionSK) 
+				REFERENCES dbo.DimAction(ActionSK)
 )
 GO
 
@@ -237,6 +263,8 @@ IF(OBJECT_ID('dbo.StageClassAttendance')) IS NOT NULL
 GO
 CREATE TABLE dbo.StageClassAttendance
 (
+	StageClassAttendance int identity(1,1)		
+		CONSTRAINT PK_StageClassAttendance_StageClassAttendance PRIMARY KEY,
 	Term int,
 	AttendanceDate datetime,
 	AttendanceDateSK int,
@@ -245,10 +273,6 @@ CREATE TABLE dbo.StageClassAttendance
 	CourseID bigint,
 	AttendTypeID varchar(5)
 )
-WITH
-(
-	CLUSTERED COLUMNSTORE INDEX
-)
 GO
 
 IF(OBJECT_ID('dbo.StageDailyAttendance')) IS NOT NULL
@@ -256,6 +280,8 @@ IF(OBJECT_ID('dbo.StageDailyAttendance')) IS NOT NULL
 GO
 CREATE TABLE dbo.StageDailyAttendance
 (
+	StageDailyAttendance int identity(1,1)		
+		CONSTRAINT PK_StageDailyAttendance_StageDailyAttendance PRIMARY KEY,
 	AttendanceDate datetime,
 	AttendanceDateSK int,
 	StudentID bigint,
@@ -265,10 +291,6 @@ CREATE TABLE dbo.StageDailyAttendance
 	NumofUnexcusedAbsent int,
 	NumofExcusedAbsent int
 )
-WITH
-(
-	CLUSTERED COLUMNSTORE INDEX
-)
 GO
 
 IF(OBJECT_ID('dbo.StageDailyIncident')) IS NOT NULL
@@ -276,6 +298,8 @@ IF(OBJECT_ID('dbo.StageDailyIncident')) IS NOT NULL
 GO
 CREATE TABLE dbo.StageDailyIncident
 (
+	StageDailyIncident int identity(1,1)		
+		CONSTRAINT PK_StageDailyIncident_StageDailyIncident PRIMARY KEY,
 	IncidentDate datetime,
 	IncidentDateSK int,
 	StudentID bigint,
@@ -283,10 +307,6 @@ CREATE TABLE dbo.StageDailyIncident
 	IncidentID varchar(5),
 	InvolvementID varchar(5),
 	ActionID varchar(5)
-)
-WITH
-(
-	CLUSTERED COLUMNSTORE INDEX
 )
 GO
 
