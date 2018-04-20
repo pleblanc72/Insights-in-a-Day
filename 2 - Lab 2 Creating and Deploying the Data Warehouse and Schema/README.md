@@ -38,7 +38,7 @@ OR
 
 
 
-[->]
+[-> Next Section - Creating and Deploying the ETL Environment](https://github.com/pleblanc72/Insights-in-a-Day/tree/master/3%20-%20Lab%203%20Create%20and%20Deploying%20the%20ETL%20Environment)
 
 [<- Back to Validating Views with the Data Dictionary](https://github.com/pleblanc72/Insights-in-a-Day/tree/master/1%20-%20Lab%201%20Validating%20Data%20Dictionary)
 
