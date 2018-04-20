@@ -3,10 +3,10 @@
 **************************************************************************************************************************************************************************************** 
 
 
-# Lab 1:  Creating and Deploying the Data Warehouse and Schema
+# Lab 2:  Creating and Deploying the Data Warehouse and Schema
 
 In this section you will do the one of the following:
-- Create an Azure SQL Database using this [document](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-get-started-portal).  **Replace the items in the document with the following**:
+1. Create an Azure SQL Database using this [document](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-get-started-portal).  **Replace the items in the document with the following**:
 
 	1.  **Database name:** AtRiskDW
 	2.  **Subscription:** Name of your subscription
@@ -15,7 +15,7 @@ In this section you will do the one of the following:
 	5.  **Server:**  Select an existing Logical SQL Server or following the steps outlined in the document to create a new one.  (Create it in the same resource group specified in step 3)
 	6.  **Pricing tier:**  Standard S2
 
-- Run the Data Warehouse schema TSQL Script on the Database
+2. Run the Data Warehouse schema TSQL Script on the Database
 
 OR
 
@@ -25,6 +25,6 @@ OR
 
 
 
-[Back to Data Dictionary](https://github.com/pleblanc72/Insights-in-a-Day/tree/master/1%20-%20Lab%201%20Validating%20Data%20Dictionary)
+[Back to Validating Views with the Data Dictionary](https://github.com/pleblanc72/Insights-in-a-Day/tree/master/1%20-%20Lab%201%20Validating%20Data%20Dictionary)
 
 [Back to Main Page](https://github.com/pleblanc72/Insights-in-a-Day)

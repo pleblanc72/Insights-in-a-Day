@@ -1,7 +1,7 @@
 ﻿
 # Validating views with the Data Dictionary
 
-**Since this is a short workshop, please filter the views to only include data for the current school year and last years school year.  However if you have stumbled upon the repository and attempting to do this on your own, please load as much data as you feel needed.**
+**Since this is a short workshop, please filter the views to only include data for the current school year and last years school year.  However, if you have stumbled upon the repository and you are doing this on your own at your own pace, please load as much data as you feel needed.**
 
 1.  Use the [**Data Dictionary.docx**](https://github.com/pleblanc72/Insights-in-a-Day/raw/master/1%20-%20Data%20Dictionary/Data%20Dictionary.docx) document as detailed information forcreating the required views for the Insights in a Day:  At Risk Students workshop.  To successfully complete the workshop, you need to create a set of tables/views the comply with the information in the [**Data Dictionary.docx**](https://github.com/pleblanc72/Insights-in-a-Day/raw/master/1%20-%20Data%20Dictionary/Data%20Dictionary.docx) file located above.  Please ensure that the object names, columns names and data types are as specified in this document.
 
