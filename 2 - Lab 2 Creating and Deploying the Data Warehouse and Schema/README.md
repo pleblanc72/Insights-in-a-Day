@@ -17,7 +17,7 @@ In this section you will do the one of the following:
 
 2. Run the Data Warehouse schema TSQL Script on the Database
 	1.  Open SQL Server Managment Studio.
-	2.  Open the AtRiskSQLDB.sql Script.  Ensure that the query is ran in the context of the AtRiskDW database that was created in step one of this section.
+	2.  Open the [AtRiskSQLDB.sql](https://github.com/pleblanc72/Insights-in-a-Day/tree/master/2%20-%20Lab%202%20Creating%20and%20Deploying%20the%20Data%20Warehouse%20and%20Schema/Azure%20SQL%20Database) Script.  Ensure that the query is ran in the context of the AtRiskDW database that was created in step one of this section.
 	3.  Execute the Query.
 
 OR
@@ -33,7 +33,7 @@ OR
 
 2. Run the Data Warehouse schema TSQL Script on the  Data Warehouse
 	1.  Open SQL Server Managment Studio.
-	2.  Open the AtRiskSQLDW.sql Script.  Ensure that the query is ran in the context of the AtRiskDW database that was created in step one of this section.
+	2.  Open the [AtRiskSQLDW.sql](https://github.com/pleblanc72/Insights-in-a-Day/tree/master/2%20-%20Lab%202%20Creating%20and%20Deploying%20the%20Data%20Warehouse%20and%20Schema/Azure%20SQL%20Data%20Warehouse) Script.  Ensure that the query is ran in the context of the AtRiskDW database that was created in step one of this section.
 	3.  Execute the Query.
 
 
