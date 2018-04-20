@@ -11,6 +11,6 @@
 - Connect to the server that hosts the database where the views were created.
 - Execute the script.
 
-[Next Section - The Data Warehouse](https://github.com/pleblanc72/Insights-in-a-Day/tree/master/2%20-%20Lab%202%20Creating%20and%20Deploying%20the%20Data%20Warehouse%20and%20Schema)
+[-> Next Section - The Data Warehouse](https://github.com/pleblanc72/Insights-in-a-Day/tree/master/2%20-%20Lab%202%20Creating%20and%20Deploying%20the%20Data%20Warehouse%20and%20Schema)
 
-[Back to Main Page](https://github.com/pleblanc72/Insights-in-a-Day)
+[<- Back to Main Page](https://github.com/pleblanc72/Insights-in-a-Day)
