@@ -40,7 +40,7 @@ Please note:  This is a rough agenda, and the schedule is subject to change pend
 See [Data Dictionary](https://github.com/pleblanc72/Insights-in-a-Day/tree/master/1%20-%20Data%20Dictionary) for more details.
 - 10-10:15:        Break
 - 10:15-11:15:     [Lab 2](https://github.com/pleblanc72/Insights-in-a-Day/tree/master/2%20-%20Lab%202%20Creating%20and%20Deploying%20the%20Data%20Warehouse%20and%20Schema)  - Creating and Deploying the Data Warehouse and Schema
-- 11:15-12:        Lab 3 – Creating and Configuring Azure Data Factory or Validating SSIS Environment
+- 11:15-12:        Lab 3 – Creating and Deploying the ETL Environment
 - 12-1:            Lunch
 - 1-2:             Lab 4 – Configuring the SSIS ETL Project
 - 2-3:             Lab 5 – Creating, configuring and Deploying Azure Analysis Services Tabular Model
