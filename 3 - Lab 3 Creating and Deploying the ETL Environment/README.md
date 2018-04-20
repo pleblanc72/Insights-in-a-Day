@@ -13,7 +13,7 @@
 In this section you will create an Azure Date Factory.  Please use the following steps to configure Azure Data Factory:
 
 1.  Open **Windows Powershell ISE** as an administrator.
-2.  Open the [Deploy ADF and Configure Runtime.ps1]() PowerShell script.
+2.  Open the [Deploy ADF and Configure Runtime.ps1](https://github.com/pleblanc72/Insights-in-a-Day/blob/master/3%20-%20Lab%203%20Creating%20and%20Deploying%20the%20ETL%20Environment/Deploy%20ADF%20and%20Configure%20Runtime.ps1) PowerShell script.
 3.  Update the following variables (highlighted in red) with values that correspond to your environment:
 	- $SubscriptionName
 	- $ResourceGroupName
@@ -29,7 +29,6 @@ In this section you will create an Azure Date Factory.  Please use the following
 	- $SSISDBServerAdminPassword
 	- $SSISDBPricingTier
 4.  Save and run the script.  It should complete in approximately 20 minutes.
-
 
 
 [-> Configuring the SSIS ETL Project](https://github.com/pleblanc72/Insights-in-a-Day/tree/master/4%20-%20Lab%204%20Configuring%20the%20SSIS%20ETL%20Project)
