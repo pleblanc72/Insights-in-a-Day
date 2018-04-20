@@ -16,6 +16,9 @@ In this section you will do the one of the following:
 	6.  **Pricing tier:**  Standard S2
 
 2. Run the Data Warehouse schema TSQL Script on the Database
+	1.  Open SQL Server Managment Studio.
+	2.  Open the AtRiskSQLDB.sql Script.  Ensure that the query is ran in the context of the AtRiskDW database that was created in step one of this section.
+	3.  Execute the Query.
 
 OR
 
@@ -24,7 +27,8 @@ OR
 
 
 
+[->]
 
-[Back to Validating Views with the Data Dictionary](https://github.com/pleblanc72/Insights-in-a-Day/tree/master/1%20-%20Lab%201%20Validating%20Data%20Dictionary)
+[<- Back to Validating Views with the Data Dictionary](https://github.com/pleblanc72/Insights-in-a-Day/tree/master/1%20-%20Lab%201%20Validating%20Data%20Dictionary)
 
-[Back to Main Page](https://github.com/pleblanc72/Insights-in-a-Day)
+[<- Back to Main Page](https://github.com/pleblanc72/Insights-in-a-Day)
