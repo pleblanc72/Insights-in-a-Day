@@ -1,4 +1,4 @@
-﻿**************************************************************************************************************************************************************************************** 
+﻿p**************************************************************************************************************************************************************************************** 
 **IMPORTANT**:  
 
 1. If you decided to use Azure Data Factory as a host for your SSIS packages ensure that you have create a Virtual Network in Azure and configure a VPN or Express that connects to on your on-premises network.
@@ -7,12 +7,13 @@
 **************************************************************************************************************************************************************************************** 
 
 
-# Lab 3:  Creating and Deploying the the ETL Environment
+# Lab 4:  Configuring the SSIS ETL Project
 
-In this section you will do the one of the following:
-1. Configure the SSIS Project to point to your environment.
-2. (Optional) Create an Azure Date Factory **Only do this if you plan to use Azure Data Factory**.  
-3. Deploy the SSIS Project.
+Use the following steps to complete this Lab:
+1.  Open the [SSIS ETL]() Visual Studio (VS) project.
+2.  Once VS is open click View > Solution Explorer it is not visible.
+3.  Double-click **Project.params**, which is located directly below **AtRisk.SSIS** in the Solution Explorer.
+4
 
 
 [->]
