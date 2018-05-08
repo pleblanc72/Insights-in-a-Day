@@ -15,4 +15,4 @@ Use the following steps to complete this Lab:
 
 [<- Back to Validating Views with the Data Dictionary](https://github.com/pleblanc72/Insights-in-a-Day/tree/master/1%20-%20Lab%201%20Validating%20Data%20Dictionary)
 
-[<- Back to Main Page](https://github.com/pleblanc72/Insights-in-a-Day
+[<- Back to Main Page](https://github.com/pleblanc72/Insights-in-a-Day)
