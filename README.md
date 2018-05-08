@@ -33,13 +33,13 @@ Finally, before arriving at the workshop ensure that you have installed the late
 
 # Deployment Steps
 
-[**Lab 1**](https://github.com/pleblanc72/Insights-in-a-Day/tree/master/1%20-%20Lab%201%20Validating%20Data%20Dictionary) - Validating your environment, checking your views and creating Loading Stored Procedures on your SIS.  
-[**Lab 2**](https://github.com/pleblanc72/Insights-in-a-Day/tree/master/2%20-%20Lab%202%20Creating%20and%20Deploying%20the%20Data%20Warehouse%20and%20Schema)  - Creating and Deploying the Data Warehouse and Schema
-[**Lab 3**](https://github.com/pleblanc72/Insights-in-a-Day/tree/master/3%20-%20Lab%203%20Creating%20and%20Deploying%20the%20ETL%20Environment) – Creating and Deploying the ETL Environment
-[**Lab 4**](https://github.com/pleblanc72/Insights-in-a-Day/tree/master/5%20-%20Lab%205%20Configuring%20the%20SSIS%20ETL%20Project) – Configuring the SSIS ETL Project
-[**Lab 5**](https://github.com/pleblanc72/Insights-in-a-Day/tree/master/4%20-%20Lab%204%20Configuring%20and%20Deploying%20Azure%20Analysis%20Services%20Tabular%20Model) – Configuring and Deploying Azure Analysis Services Tabular Model
-[**Lab 6**]() - Deploying and Scheduling your SSIS packages
-[**Lab 7**]() - Connecting the Power BI Report to your Azure AS instance  
+- [**Lab 1**](https://github.com/pleblanc72/Insights-in-a-Day/tree/master/1%20-%20Lab%201%20Validating%20Data%20Dictionary) - Validating your environment, checking your views and creating Loading Stored Procedures on your SIS.  
+- [**Lab 2**](https://github.com/pleblanc72/Insights-in-a-Day/tree/master/2%20-%20Lab%202%20Creating%20and%20Deploying%20the%20Data%20Warehouse%20and%20Schema)  - Creating and Deploying the Data Warehouse and Schema
+- [**Lab 3**](https://github.com/pleblanc72/Insights-in-a-Day/tree/master/3%20-%20Lab%203%20Creating%20and%20Deploying%20the%20ETL%20Environment) – Creating and Deploying the ETL Environment
+- [**Lab 4**](https://github.com/pleblanc72/Insights-in-a-Day/tree/master/5%20-%20Lab%205%20Configuring%20the%20SSIS%20ETL%20Project) – Configuring the SSIS ETL Project
+- [**Lab 5**](https://github.com/pleblanc72/Insights-in-a-Day/tree/master/4%20-%20Lab%204%20Configuring%20and%20Deploying%20Azure%20Analysis%20Services%20Tabular%20Model) – Configuring and Deploying Azure Analysis Services Tabular Model
+- [**Lab 6**]() - Deploying and Scheduling your SSIS packages
+- [**Lab 7**]() - Connecting the Power BI Report to your Azure AS instance  
 
 
 
