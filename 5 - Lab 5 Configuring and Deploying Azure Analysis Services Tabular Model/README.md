@@ -7,7 +7,7 @@ Use the following steps to complete this Lab:
 ###  [Watch video for more instructions](https://youtu.be/0V8Y8g6CS-o)
 [![Alt text for your video](https://img.youtube.com/vi/0V8Y8g6CS-o/0.jpg)](https://youtu.be/0V8Y8g6CS-o)
 
-[-> Next Section - Deploying and Scheduling your SSIS Packages](h)ttps://github.com/pleblanc72/Insights-in-a-Day/tree/master/6%20-%20Lab%206%20Deploying%20and%20Scheduling%20your%20SSIS%20Packages
+[-> Next Section - Deploying and Scheduling your SSIS Packages](https://github.com/pleblanc72/Insights-in-a-Day/tree/master/6%20-%20Lab%206%20Deploying%20and%20Scheduling%20your%20SSIS%20Packages)
 
 [<- Back to Configuring and Deploying Azure Azure Analysis Services Tabular Model](https://github.com/pleblanc72/Insights-in-a-Day/tree/master/5%20-%20Lab%205%20Configuring%20and%20Deploying%20Azure%20Analysis%20Services%20Tabular%20Model)
 
