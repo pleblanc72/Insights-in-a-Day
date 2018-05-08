@@ -9,7 +9,7 @@ Use the following steps to complete this Lab:
 
 [-> Next Section - Deploying and Scheduling your SSIS Packages](https://github.com/pleblanc72/Insights-in-a-Day/tree/master/6%20-%20Lab%206%20Deploying%20and%20Scheduling%20your%20SSIS%20Packages)
 
-[<- Back to Configuring the SSIS ETL Project] (https://github.com/pleblanc72/Insights-in-a-Day/tree/master/4%20-%20Lab%204%20Configuring%20the%20SSIS%20ETL%20Project)
+[<- Back to Configuring the SSIS ETL Project](https://github.com/pleblanc72/Insights-in-a-Day/tree/master/4%20-%20Lab%204%20Configuring%20the%20SSIS%20ETL%20Project)
 
 [<- Back to Creating and Deploying the ETL Environment](https://github.com/pleblanc72/Insights-in-a-Day/tree/master/3%20-%20Lab%203%20Creating%20and%20Deploying%20the%20ETL%20Environment)
 
