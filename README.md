@@ -37,7 +37,6 @@ Please note:  This is a rough agenda, and the schedule is subject to change pend
 - Step 01:  Setup assistance and networking
 - Step 02:           Introduction to the Solution
 - Step 03:         [**Lab 1**](https://github.com/pleblanc72/Insights-in-a-Day/tree/master/1%20-%20Lab%201%20Validating%20Data%20Dictionary) - Validating your environment, checking your views and creating Loading Stored Procedures on your SIS.  
-See [Data Dictionary](https://github.com/pleblanc72/Insights-in-a-Day/tree/master/1%20-%20Data%20Dictionary) for more details.
 - Step 04:     [**Lab 2**](https://github.com/pleblanc72/Insights-in-a-Day/tree/master/2%20-%20Lab%202%20Creating%20and%20Deploying%20the%20Data%20Warehouse%20and%20Schema)  - Creating and Deploying the Data Warehouse and Schema
 - Step 05:        [**Lab 3**](https://github.com/pleblanc72/Insights-in-a-Day/tree/master/3%20-%20Lab%203%20Creating%20and%20Deploying%20the%20ETL%20Environment) – Creating and Deploying the ETL Environment
 - Step 06:             [**Lab 4**](https://github.com/pleblanc72/Insights-in-a-Day/tree/master/5%20-%20Lab%205%20Configuring%20the%20SSIS%20ETL%20Project) – Configuring the SSIS ETL Project
