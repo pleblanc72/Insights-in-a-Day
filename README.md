@@ -16,7 +16,7 @@ At the end of this workshop, you should be able to:
 # Pre-requisites
 This workshop is meant for a Business Intelligence Developer on Azure.  Since this is only a short workshop, there are certain this you need before you start.
 
-Firstly, you need to ensure that you have created views against your Student Information System (SIS) in accordance with the data dictionary provided [here](https://github.com/pleblanc72/Insights-in-a-Day/tree/master/1%20-%20Data%20Dictionary).  Please create the views on a server that you can access when you are outside of your organizations network. 
+Firstly, you need to ensure that you have created views against your Student Information System (SIS) in accordance with the data dictionary provided [here](https://github.com/pleblanc72/Insights-in-a-Day/blob/master/1%20-%20Lab%201%20Validating%20Data%20Dictionary/Data%20Dictionary.docx).  Please create the views on a server that you can access when you are outside of your organizations network. 
 
 Secondly, you should have access to your organizations Azure Subscription.  In addition, you must have the ability to create all the necessary objects in the subscription.  Please work with you Microsoft Account representative to properly set up your subscription.  If you are planning to run your SSIS packages using ADF please ensure that you have a Virtual Network and VPN/Express Route configured in your subscription prior to attending the workshop. Howerver, if you decide to use SSIS on SQL Server ensure that you have the ability to publish packages, create and configure environments and schedule packages to run using the SQL Server Agent.
 
