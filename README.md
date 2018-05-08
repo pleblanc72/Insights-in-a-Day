@@ -32,7 +32,6 @@ Finally, before arriving at the workshop ensure that you have installed the late
 - SQL Server Data Tools 
 
 # Agenda
-Please note:  This is a rough agenda, and the schedule is subject to change pending workshop activities and interaction:
 
 - Step 01:  Setup assistance and networking
 - Step 02:           Introduction to the Solution
