@@ -7,14 +7,14 @@
 **************************************************************************************************************************************************************************************** 
 
 
-# Lab 4:  Configuring the SSIS ETL Project
+# Lab 4:  Configuring and Deploying Azure Analysis Services Tabular Model
 
 Use the following steps to complete this Lab:
-1.  Open the [SSIS ETL]() Visual Studio (VS) project.
-2.  Once VS is open click View > Solution Explorer it is not visible.
-3.  Double-click **Project.params**, which is located directly below **AtRisk.SSIS** in the Solution Explorer.
-4
+1. Create an Azure Analysis Services using this [document](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-get-started-portal).  **Replace the items in the document with the following**:  
+2.  Open the [Data Model to Upload.pbix]() file.
 
+###  [Watch video for more instructions](http://www.youtube.com/watch?v=U1dC-iKgKys)
+[![Alt text for your video](https://img.youtube.com/vi/U1dC-iKgKys/0.jpg)](http://www.youtube.com/watch?v=U1dC-iKgKys)
 
 [->]
 

@@ -1,7 +1,7 @@
 ﻿**************************************************************************************************************************************************************************************** 
 **IMPORTANT**:  
 
-1. If you decided to use Azure Data Factory as a host for your SSIS packages ensure that you have create a Virtual Network in Azure and configure a VPN or Express that connects to on your on-premises network.
+1. If you decided to use Azure Data Factory as a host for your SSIS packages ensure that you have created a Virtual Network in Azure and configured a VPN or Express Route that connects to on your on-premises network.
 
 2. If you are using SSIS as part of SQL Server, ensure that you have the ability to deploy, configure and schedule packages.
 **************************************************************************************************************************************************************************************** 
