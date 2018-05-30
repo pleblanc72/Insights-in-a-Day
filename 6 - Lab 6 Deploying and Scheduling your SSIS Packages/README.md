@@ -15,6 +15,7 @@ Follow these steps to complete this section:
 	1.  [Azure Data Factory](https://docs.microsoft.com/en-us/azure/data-factory/how-to-invoke-ssis-package-ssis-activity)
 	2.  [SQL Server](https://docs.microsoft.com/en-us/sql/integration-services/packages/sql-server-agent-jobs-for-packages?view=sql-server-2017#packages)
 
+Ensure that you have scheduled the packages to run during a period when very little activity is occurring against the Data Warehouse or Azure Analysis Server.
 
 [-> Next Section - Connecting the Power BI Report to your Azure AS Instance](https://github.com/pleblanc72/Insights-in-a-Day/tree/master/7%20-%20Lab%207%20Connecting%20the%20Power%20BI%20Report%20to%20your%20Azure%20AS%20Instance)
 
