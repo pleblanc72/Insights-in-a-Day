@@ -2,7 +2,15 @@
 
 Use the following steps to complete this Lab:
 1. Create an Azure Analysis Services using this [document](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-get-started-portal).  **Replace the items in the document with the following**:  
-2.  Open the [Data Model to Upload.pbix]() file.
+
+	1.  **Server Name:** AtRiskSSAS
+	2.  **Subscription:** Name of your subscription
+	3.  **Resource Group:** Select **Use existing** radio button and select the **iiad** resource group or the the resource group you have selected to use for this workshop.
+	4.  **Location:**  Location closest to you.
+	5.  **Pricing tier:**  D1
+	6.  **Administrator:** Add your AD Account
+
+2.  Open the [Data Model to Upload.pbix]() file and follow the instructions in the below video.
 
 ###  [Watch video for more instructions](https://youtu.be/0V8Y8g6CS-o)
 [![Alt text for your video](https://img.youtube.com/vi/0V8Y8g6CS-o/0.jpg)](https://youtu.be/0V8Y8g6CS-o)
