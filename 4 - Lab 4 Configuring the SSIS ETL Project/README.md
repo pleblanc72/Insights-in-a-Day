@@ -14,7 +14,8 @@ Use the following steps to complete this Lab:
 2.  Once VS is open click View > Solution Explorer it is not visible.
 3.  Double-click **Project.params**, which is located directly below **AtRisk.SSIS** in the Solution Explorer.
 4.  Set the value for each parameter corresponding to your environment.  You may not have an Azure AS server running at time, so you can leave the TabularDatabase and TabularServer parameters blank for now.
-5.  Click the save button and execute the MasterDWLoad.dtsx package.
+5.  Set the value for the Initial Load Parameter for False.
+6.  Click the save button and execute the MasterDWLoad.dtsx package.
 
 
 [-> Next Section - Configuring and Deploying Azure Azure Analysis Services Tabular Model](https://github.com/pleblanc72/Insights-in-a-Day/tree/master/5%20-%20Lab%205%20Configuring%20and%20Deploying%20Azure%20Analysis%20Services%20Tabular%20Model)

@@ -3,7 +3,9 @@
 Follow these steps to complete this section:
 
 1.  Open the SSIS ETL solution that you configured in [Lab 4](https://github.com/pleblanc72/Insights-in-a-Day/tree/master/4%20-%20Lab%204%20Configuring%20the%20SSIS%20ETL%20Project).
-2.  Enable the SSAS Processing Tasks on MasterDWLoad.dtsx package and click Save.
+2.  Enable the ASPT - CY SSAS Processing Task on MasterDWLoad.dtsx package and click Save.
+3.  Right-click the ASPT - PY SSAS Processing TAsk on the MasterDWLoad.dtsc package and select Execute Task from the context menu.
+4.  Once it completes stop the package from running by click the red box in the menu.
 3.  Right-click on AtRisk.SSIS in the Solution Explorer and select Deploy from the context menu.
 4.  Walk through the Integration Deployment Wizard properly specifying the Destination for the packages.  If you are using Azure Data Factory you will need to deploy to an Azure SQL Database.  
 5.  For more details about deploying SSIS packages see the following:
@@ -14,6 +16,7 @@ Follow these steps to complete this section:
 
 	1.  [Azure Data Factory](https://docs.microsoft.com/en-us/azure/data-factory/how-to-invoke-ssis-package-ssis-activity)
 	2.  [SQL Server](https://docs.microsoft.com/en-us/sql/integration-services/packages/sql-server-agent-jobs-for-packages?view=sql-server-2017#packages)
+
 
 Ensure that you have scheduled the packages to run during a period when very little activity is occurring against the Data Warehouse or Azure Analysis Server.
 
