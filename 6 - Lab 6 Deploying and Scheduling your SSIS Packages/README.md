@@ -1,6 +1,20 @@
 ﻿# Lab 6:  Deploying and Scheduling your SSIS Packages
 
-Use the following steps to complete this Lab:
+Follow these steps to complete this section:
+
+1.  Open the SSIS ETL solution that you configured in [Lab 4](https://github.com/pleblanc72/Insights-in-a-Day/tree/master/4%20-%20Lab%204%20Configuring%20the%20SSIS%20ETL%20Project).
+2.  Enable the SSAS Processing Tasks on MasterDWLoad.dtsx package and click Save.
+3.  Right-click on AtRisk.SSIS in the Solution Explorer and select Deploy from the context menu.
+4.  Walk through the Integration Deployment Wizard properly specifying the Destination for the packages.  If you are using Azure Data Factory you will need to deploy to an Azure SQL Database.  
+5.  For more details about deploying SSIS packages see the following:
+
+	1.  [Azure Data Factory] (https://docs.microsoft.com/en-us/sql/integration-services/lift-shift/ssis-azure-deploy-run-monitor-tutorial?view=sql-server-2017)
+	2.  [SQL Server] (https://docs.microsoft.com/en-us/sql/integration-services/packages/deploy-integration-services-ssis-projects-and-packages?view=sql-server-2017)
+6.  Once the packages or deployed you must schedule the packages to run.  For more details on scheduling packages to run see the following:
+
+	1.  [Azure Data Factory](https://docs.microsoft.com/en-us/azure/data-factory/how-to-invoke-ssis-package-ssis-activity)
+	2.  [SQL Server](https://docs.microsoft.com/en-us/sql/integration-services/packages/sql-server-agent-jobs-for-packages?view=sql-server-2017#packages)
+
 
 [-> Next Section - Connecting the Power BI Report to your Azure AS Instance](https://github.com/pleblanc72/Insights-in-a-Day/tree/master/7%20-%20Lab%207%20Connecting%20the%20Power%20BI%20Report%20to%20your%20Azure%20AS%20Instance)
 
