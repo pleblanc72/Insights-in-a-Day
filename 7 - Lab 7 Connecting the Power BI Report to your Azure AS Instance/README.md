@@ -1,6 +1,12 @@
 ﻿# Lab 7:  Connecting the Power BI Report to your Azure AS Instance
 
 Use the following steps to complete this Lab:
+1.  Open the At Risk Live.pbix file located in the folder of this lab.
+2.  Ensure that Home is selected in the Ribbon.
+3.  Click Edit Queries -> Data Source Settings.
+4.  Enter your Azure Analysis Server name in the Server name textbox and click OK.
+
+The report should load with your data.
 
 
 [<- Back to Deploying and Scheduling your SSIS Packages](https://github.com/pleblanc72/Insights-in-a-Day/tree/master/6%20-%20Lab%206%20Deploying%20and%20Scheduling%20your%20SSIS%20Packages)
