@@ -8,8 +8,8 @@ Follow these steps to complete this section:
 4.  Walk through the Integration Deployment Wizard properly specifying the Destination for the packages.  If you are using Azure Data Factory you will need to deploy to an Azure SQL Database.  
 5.  For more details about deploying SSIS packages see the following:
 
-	1.  [Azure Data Factory] (https://docs.microsoft.com/en-us/sql/integration-services/lift-shift/ssis-azure-deploy-run-monitor-tutorial?view=sql-server-2017)
-	2.  [SQL Server] (https://docs.microsoft.com/en-us/sql/integration-services/packages/deploy-integration-services-ssis-projects-and-packages?view=sql-server-2017)
+	1.  [Azure Data Factory](https://docs.microsoft.com/en-us/sql/integration-services/lift-shift/ssis-azure-deploy-run-monitor-tutorial?view=sql-server-2017)
+	2.  [SQL Server](https://docs.microsoft.com/en-us/sql/integration-services/packages/deploy-integration-services-ssis-projects-and-packages?view=sql-server-2017)
 6.  Once the packages or deployed you must schedule the packages to run.  For more details on scheduling packages to run see the following:
 
 	1.  [Azure Data Factory](https://docs.microsoft.com/en-us/azure/data-factory/how-to-invoke-ssis-package-ssis-activity)
